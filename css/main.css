@@ -5,6 +5,7 @@ html{
 *{
 	box-sizing: border-box;
 }
+
 .bg-texture{
 	background: url(../img/текстура.png);
 	position:fixed;
@@ -923,6 +924,7 @@ h6{
 .рука-1{
 	display: none;
 }
+
 @media screen and (max-width: 900px){
 	.рука-1{
 		display: block;

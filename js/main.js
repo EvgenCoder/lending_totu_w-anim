@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).ready(function(){
 	$('.hideTextFourBlock').hide();
 	$('.круг5').hide();
 	$('.minus').hide();
@@ -97,3 +97,6 @@ window.addEventListener('scroll', function() {
 
 
 
+$(document).ready(function(){
+	AOS.init();
+});
